@@ -1,0 +1,43 @@
+body {
+   font-family: "Quicksand", cursive;
+}
+
+.parent {
+   display: grid;
+   grid-template-columns: 500px 500px;
+   grid-template-rows: 500px 500px;
+   justify-content: center;
+   align-content: center;
+   column-gap: 10px;
+   row-gap: 10px;
+   word-break: break-all;
+}
+
+.child {
+   background-color: #f0e68c;
+   border: 10px solid black;
+   border-radius: 10%;
+   padding: 2em;
+}
+
+header {
+   margin: 5px;
+   background-color: steelblue;
+   line-height: 150px;
+   color: khaki;
+   font-size: 50px;
+   font-family: "Rock Salt", cursive;
+   text-align: center;
+}
+
+ul {
+   font-size: large;
+}
+
+form {
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+
+/*#4682B4*/
